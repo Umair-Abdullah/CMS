@@ -65,8 +65,6 @@ while True:
 
     # convert to grayscale
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-#face crop Bhi kar rahy hain
-#Thankyou SIr
     # Detection of Faces
     faces = face_cascade.detectMultiScale(gray, 1.1, 4)
 
